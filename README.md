@@ -21,7 +21,30 @@ Notable differences from Bitcoin
 Modifications to the RPC API
 + verifymessage <helixcoinaddress> <publickey> <signature> <message>
 
+rpcport=9504 
+port=9505
+
 Forked from Bitcoin reference wallet 0.8.5 and MaxCoin
+
+-----------------------------
+helixcoin.conf
+
+server=1
+listen=1
+daemon=1
+rpcport=9504
+port=9505
+rpcallowip=127.0.0.1
+rpcconnect=127.0.0.1
+rpcallowip=localhost
+rpcconnect=localhost
+rpcuser=helix
+rpcpassword=coin
+addnode=107.170.69.245
+addnode=198.199.85.33
+addnode=107.170.233.189
+addnode=188.226.156.210
+
 
 License
 ------
