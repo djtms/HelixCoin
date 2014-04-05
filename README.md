@@ -29,9 +29,9 @@ Forked from Bitcoin reference wallet 0.8.5 and MaxCoin
 -----------------------------
 helixcoin.conf
 
-server=1
-listen=1
-daemon=1
+server=1 
+listen=1 
+daemon=1 
 rpcport=9504
 port=9505
 rpcallowip=127.0.0.1
